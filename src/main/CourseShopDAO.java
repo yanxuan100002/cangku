@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.rainng.coursesystem.dao.mapper.CourseMapper;
 import com.rainng.coursesystem.dao.mapper.CourseShopMapper;
-import com.rainng.coursesystem.model.bo.CourseItemBO;
 import com.rainng.coursesystem.model.bo.CourseShopItemBO;
 import com.rainng.coursesystem.model.bo.StudentCourseSelectItemBO;
 import com.rainng.coursesystem.model.entity.CourseEntity;
