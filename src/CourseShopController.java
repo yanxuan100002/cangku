@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Student
 @RequestMapping("/student/course")
-@RestController("student_courseController")
+@RestController("student_courseshopController")
 public class CourseShopController extends BaseController {
     private final CourseShopService service;
 
