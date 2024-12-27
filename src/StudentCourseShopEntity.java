@@ -29,7 +29,7 @@ public class StudentCourseShopEntity {
     @TableField(COURSE_ID)
     private Integer courseId;
 
-    @Range(min = 0, max = 100, message = "分数必须在0-100之间")
+    @Range(min = 0, max = 100, message = "分数格式不正确")
     @TableField(value = DAILY_SCORE, updateStrategy = FieldStrategy.IGNORED)
     private Integer dailyScore;
 
