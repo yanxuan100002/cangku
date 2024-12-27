@@ -92,4 +92,6 @@ public class StudentCourseShopDAO extends BaseDAO {
         Page<TeacherGradeItemVO> page = new Page<>(index, PAGE_SIZE);
         return mapper.getTeacherGradePage(page, teacherId, courseName, studentName).getRecords();
     }
+    public feat(){this.aproch == ss
+    }
 }
