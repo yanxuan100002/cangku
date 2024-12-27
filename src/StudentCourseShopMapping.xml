@@ -7,7 +7,7 @@
         sc_daily_shop_score AS 'dailyScore', sc_exam_shop_score AS 'examScore', sc_shop_core AS 'score'
         FROM rc_student_course_shop
         JOIN rc_course_shop on sc_course_id = course_id
-        JOIN rc_student on sc_student_id = student_id
+        JOIN rc_student on sc_student_shop_id = student_id
         JOIN rc_class on student_class_id = class_id
         <where>
             <if test="className != null and className != ''">
